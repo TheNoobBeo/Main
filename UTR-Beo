@@ -1,0 +1,23 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+local PhantomForcesWindow = Library:NewWindow("Beo script🤑")
+local KillingCheats = PhantomForcesWindow:NewSection("Fuck you AntiCheat")
+KillingCheats:CreateButton("Soul", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = workspace.Blacklisted.Soul.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Gift", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = workspace.Blacklisted.Gift.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("Gold", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = workspace.Blacklisted.GoldIngot.CFrame
+print("HI")
+end)
+KillingCheats:CreateButton("DSoul", function()
+local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = workspace.Blacklisted.DSoul.CFrame
+print("HI")
+end)
